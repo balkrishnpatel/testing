@@ -1,0 +1,29 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "testing in javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve src",
+    "test": "jest"
+  },
+  "keywords": [
+    "Testing",
+    "javascript"
+  ],
+  "author": "Krishna",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^21.1.0",
+    "regenerator-runtime": "^0.13.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@testing-library/dom": "^9.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "babel-jest": "^29.4.3",
+    "jest": "^29.4.3",
+    "serve": "^14.2.0"
+  }
+}
